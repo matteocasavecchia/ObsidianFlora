@@ -1,0 +1,23 @@
+# Normalizza line endings: tutti i file di testo in LF nel repo
+# (Windows può lavorarci con autocrlf, ma il repo resta pulito)
+* text=auto eol=lf
+
+# File di testo / configurazione
+*.md       text eol=lf
+*.txt      text eol=lf
+*.json     text eol=lf
+*.yaml     text eol=lf
+*.yml      text eol=lf
+*.csv      text eol=lf
+
+# File binari (Obsidian può salvarli in _Assets/)
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.svg      binary
+*.pdf      binary
+*.zip      binary
+*.xlsx     binary
+*.docx     binary
+*.pptx     binary

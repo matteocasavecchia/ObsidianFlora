@@ -1,0 +1,35 @@
+# ============================================
+# .gitignore per vault agricoltura
+# ============================================
+
+# Obsidian (config locale, workspace per macchina)
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/.trash
+.obsidian/community-plugins.json
+.trash/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporanei
+*.tmp
+*.bak
+*.log
+*.orig
+
+# Conflitti di sync (NextCloud, Dropbox, OneDrive, ecc.)
+*conflicted*copy*
+*sync-conflict*
+*~$*
