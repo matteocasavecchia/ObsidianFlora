@@ -17,6 +17,9 @@ usi:
   - repellente naturale
 raccolta_foglie: "Fiori in piena fioritura (Giugno-Luglio)"
 periodo_fioritura: "Giugno-Luglio (angustifolia); Aprile-Maggio + rifioritura (stoechas)"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -85,6 +88,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[Gestione_Salsedine_Vento]] · [[Semenzaio_Moltiplicazione]] · [[Forme_Allevamento_Potatura]]
 
 #pianta #aromatica #lamiaceae #mediterraneo #ornamentale

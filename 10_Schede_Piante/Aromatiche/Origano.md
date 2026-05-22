@@ -15,6 +15,9 @@ usi:
   - olio essenziale
 raccolta_foglie: "Maggio-Settembre (massimo aroma in fioritura)"
 periodo_fioritura: "Giugno-Agosto"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -79,6 +82,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[Consociazioni]] · [[Semenzaio_Moltiplicazione]]
 
 #pianta #aromatica #lamiaceae #mediterraneo

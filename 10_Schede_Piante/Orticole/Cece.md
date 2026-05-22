@@ -30,6 +30,9 @@ successioni_buone:
   - Cavoli
 predecessori_da_evitare:
   - Fabacee
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Irrigazione_a_Conca_e_Solco]]"
 tags:
   - pianta
   - orticola
@@ -91,6 +94,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Irrigazione_a_Conca_e_Solco]]
 - [[primavera]] · [[estate]]
 
 #pianta #orticola #fabacee #legumi

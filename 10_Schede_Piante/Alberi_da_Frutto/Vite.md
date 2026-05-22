@@ -15,6 +15,9 @@ entrata_in_produzione_anni: 4
 autofertile: true
 impollinatori_richiesti: "Nessuno (autofertile)"
 sesto_impianto_m: "1.5 × 2.5 (spalliera); 3 × 3 (pergola)"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Subirrigazione]]"
 tags:
   - albero
   - vitaceae
@@ -95,6 +98,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Subirrigazione]]
 - [[primavera]] · [[estate]] · [[autunno]]
 
 #pianta #albero_da_frutto

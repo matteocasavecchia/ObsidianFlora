@@ -70,6 +70,14 @@ Acqua di pozzo costiero può essere ricca di calcare (calcio carbonato) che inta
 - Aiuole di aromatiche perenni
 - Semenzai (con micro-asperisori a bassissima portata)
 
+### Schede pianta collegate
+```dataview
+LIST
+FROM "agricoltura/10_Schede_Piante"
+WHERE contains(tecniche_irrigazione, this.file.link)
+SORT file.name ASC
+```
+
 ## Diario di campo collegato
 ```dataview
 TABLE file.name AS "Nota", meteo AS "Meteo"

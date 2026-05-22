@@ -30,6 +30,8 @@ successioni_buone:
   - Cucurbitacee
 predecessori_da_evitare:
   - Amaryllidaceae
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
 tags:
   - pianta
   - orticola
@@ -94,6 +96,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]]
 - [[autunno]] · [[inverno]] · [[estate]]
 
 #pianta #orticola #amaryllidaceae #bulbi

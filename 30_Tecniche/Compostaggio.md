@@ -33,7 +33,7 @@ Trasformare gli scarti organici dell'orto e della cucina in ammendante naturale.
 - Compost pronto: 4-12 mesi a seconda di gestione e clima (più caldo = più veloce)
 
 ## Materiali e strumenti
-- **Verdi** (azoto): erba sfalciata, scarti freschi di cucina (bucce, torsoli, gusci di uova frantumati), foglie verdi, residui di potature verdi
+- **Verdi** (azoto): erba sfalciata, scarti freschi di cucina (bucce, torsoli, gusci di uova frantumati), foglie verdi, residui di potature verdi, [[Pollaio_e_Orto|pollina e lettiera usata del pollaio]] (potente attivatore azotato, da bilanciare con molti bruni)
 - **Bruni** (carbonio): foglie secche, paglia, cartone non patinato in piccoli pezzi, rami sminuzzati, segatura di legno non trattato
 - **Da evitare**: carne, pesce, latticini, oli (attirano ratti e fermentano male), erbe infestanti a seme maturo, piante malate, agrumi in grande quantità (acidificano)
 - Strumenti: composter chiuso (in plastica o legno) o cumulo libero, forca per rivoltare, trinciatutto se molto verde sfalciato
@@ -77,5 +77,6 @@ LIMIT 10
 - [[_MOC_Tecniche]]
 - [[Pacciamatura]]
 - [[Sovesci]]
+- [[Pollaio_e_Orto]] (uso della pollina)
 
 #tecnica #suolo #compost

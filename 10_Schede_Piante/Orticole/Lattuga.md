@@ -31,6 +31,9 @@ successioni_buone:
   - Solanacee
 predecessori_da_evitare:
   - Asteracee (radicchio, scarola, indivia)
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Irrigazione_a_Pioggia]]"
 tags:
   - pianta
   - orticola
@@ -95,6 +98,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Irrigazione_a_Pioggia]]
 - [[primavera]] · [[estate]] · [[autunno]] · [[inverno]]
 
 #pianta #orticola #asteracee #foglia

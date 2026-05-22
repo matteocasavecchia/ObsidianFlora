@@ -16,6 +16,9 @@ usi:
   - ornamentale (forme topiarie)
 raccolta_foglie: "Tutto l'anno"
 periodo_fioritura: "Marzo-Maggio"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -82,6 +85,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[Gestione_Salsedine_Vento]] · [[Forme_Allevamento_Potatura]] · [[Semenzaio_Moltiplicazione]]
 
 #pianta #aromatica #lauraceae #sempreverde #mediterraneo

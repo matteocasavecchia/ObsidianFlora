@@ -14,6 +14,9 @@ usi:
   - repellente naturale
 raccolta_foglie: "Giugno-Ottobre"
 periodo_fioritura: "Luglio-Settembre (da impedire per produzione foglie)"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -81,6 +84,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[primavera]] · [[estate]]
 
 #pianta #aromatica #lamiaceae

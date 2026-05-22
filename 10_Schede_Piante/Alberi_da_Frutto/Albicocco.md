@@ -15,6 +15,10 @@ entrata_in_produzione_anni: 3
 autofertile: true
 impollinatori_richiesti: "Nessuno (rare eccezioni)"
 sesto_impianto_m: "4 × 5"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Irrigazione_a_Conca_e_Solco]]"
+  - "[[Subirrigazione]]"
 tags:
   - albero
   - drupacee
@@ -87,6 +91,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Irrigazione_a_Conca_e_Solco]] · [[Subirrigazione]]
 - [[primavera]] · [[estate]] · [[inverno]]
 
 #pianta #albero_da_frutto #drupacee

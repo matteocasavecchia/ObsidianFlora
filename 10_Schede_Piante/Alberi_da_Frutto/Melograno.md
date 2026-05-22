@@ -15,6 +15,10 @@ entrata_in_produzione_anni: 2
 autofertile: true
 impollinatori_richiesti: "Nessuno (produzione migliora con varietà diverse)"
 sesto_impianto_m: "4 × 5"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Irrigazione_a_Conca_e_Solco]]"
+  - "[[Swale_Canali_Infiltrazione]]"
 tags:
   - albero
   - lythraceae
@@ -86,6 +90,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Irrigazione_a_Conca_e_Solco]] · [[Swale_Canali_Infiltrazione]]
 - [[estate]] · [[autunno]] · [[inverno]]
 
 #pianta #albero_da_frutto

@@ -15,6 +15,9 @@ usi:
   - liquori (mentuccia)
 raccolta_foglie: "Maggio-Ottobre"
 periodo_fioritura: "Luglio-Settembre"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -87,6 +90,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[Semenzaio_Moltiplicazione]] · [[Consociazioni]]
 
 #pianta #aromatica #lamiaceae

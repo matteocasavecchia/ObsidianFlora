@@ -30,6 +30,9 @@ successioni_buone:
   - Insalate
 predecessori_da_evitare:
   - Cucurbitacee
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Subirrigazione]]"
 tags:
   - pianta
   - orticola
@@ -94,6 +97,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Subirrigazione]]
 - [[primavera]] · [[estate]]
 
 #pianta #orticola #cucurbitacee

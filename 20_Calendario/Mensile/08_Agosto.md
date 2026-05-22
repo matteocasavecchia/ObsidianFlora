@@ -65,7 +65,7 @@ Raccolte massicce, irrigazione fondamentale, prime semine autunnali, gestione de
 - **Ragnetto rosso**: nebulizzazioni
 
 ## Lavorazioni terreno
-- Irrigazione **massiva e regolare**: priorità assoluta
+- Irrigazione **massiva e regolare**: priorità assoluta (gestione di picco e scirocco in [[Gestione_Idrica_Estiva]])
 - Pacciamatura mantenuta
 - Conservazioni: salse di [[Pomodoro|pomodoro]], sott'aceto, sott'olio, congelamento, essiccazione
 
@@ -78,6 +78,6 @@ Mese più difficile dell'anno sulla costa: ondate di calore + umidità marina se
 
 ## Riferimenti
 - [[_MOC_Calendario]] · [[estate]]
-- [[Irrigazione_a_Goccia]] · [[Gestione_Salsedine_Vento]]
+- [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Gestione_Idrica_Estiva]] · [[Gestione_Salsedine_Vento]]
 
 #calendario #agosto #estate

@@ -18,5 +18,5 @@ La primavera è il momento del risveglio e della semina della maggior parte degl
 - Asparagi, carciofi, [[Spinacio|spinaci]] invernali, prime [[Lattuga|lattughe]], cipollotti, [[Fava|fave]].
 
 ---
-**Note Progetto:** [[Orto_Urbano]] | [[Permacultura_Appunti]]
+**Note Progetto:** [[Rotazione_Colture]] | [[Swale_Canali_Infiltrazione]]
 #primavera #semina #orto

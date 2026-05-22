@@ -33,6 +33,9 @@ successioni_buone:
   - Cereali
 predecessori_da_evitare:
   - Solanacee (melanzana, peperone, patata)
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Subirrigazione]]"
 tags:
   - pianta
   - orticola
@@ -97,6 +100,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Subirrigazione]]
 - [[primavera]] · [[estate]]
 
 #pianta #orticola #solanacee

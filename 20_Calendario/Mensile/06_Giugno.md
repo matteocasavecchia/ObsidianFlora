@@ -67,7 +67,7 @@ Inizio delle grandi raccolte estive, gestione attiva irrigazione, difesa intensa
 
 ## Lavorazioni terreno
 - Sarchiature, pacciamature
-- Irrigazione: passare a 2 cicli al giorno (mattina presto e tramonto) per le colture esigenti
+- Irrigazione: passare a 2 cicli al giorno (mattina presto e tramonto) per le colture esigenti (impostare i turni con [[Gestione_Idrica_Estiva]])
 - Cimature: [[Pomodoro|pomodoro]] (sfemminellatura femminelle), [[Zucchina|zucchine]] (cimatura cima centrale facoltativa)
 
 ## Pianificazione
@@ -79,6 +79,6 @@ Giugno sulla costa centro-italiana segna l'inizio della stagione "vera": caldo, 
 
 ## Riferimenti
 - [[_MOC_Calendario]] · [[estate]]
-- [[Irrigazione_a_Goccia]] · [[Pacciamatura]] · [[Difesa_Biologica]]
+- [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Gestione_Idrica_Estiva]] · [[Pacciamatura]] · [[Difesa_Biologica]]
 
 #calendario #giugno #estate

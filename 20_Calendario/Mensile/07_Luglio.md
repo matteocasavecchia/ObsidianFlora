@@ -71,7 +71,7 @@ Mese delle grandi raccolte estive, irrigazione costante, difesa intensa, prime s
 - **Cidia su drupacee**, **mosca della frutta su agrumi**
 
 ## Lavorazioni terreno
-- Irrigazione **2 cicli al giorno** (alba e tramonto) per le colture estive
+- Irrigazione **2 cicli al giorno** (alba e tramonto) per le colture estive (strategia e deficit irriguo in [[Gestione_Idrica_Estiva]])
 - Pacciamatura mantenuta e ricaricata
 - Sarchiature leggere mattutine
 - Diradamento foglie basse [[Pomodoro|pomodoro]]
@@ -86,6 +86,6 @@ Luglio sulla costa centro-italiana è il mese più impegnativo. Il caldo asciutt
 
 ## Riferimenti
 - [[_MOC_Calendario]] · [[estate]]
-- [[Irrigazione_a_Goccia]] · [[Difesa_Biologica]]
+- [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Gestione_Idrica_Estiva]] · [[Difesa_Biologica]]
 
 #calendario #luglio #estate

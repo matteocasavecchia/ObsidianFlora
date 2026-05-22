@@ -15,6 +15,10 @@ entrata_in_produzione_anni: 5
 autofertile: parziale
 impollinatori_richiesti: "Variabile per cultivar (Frantoio, Leccino, Pendolino come impollinatori universali)"
 sesto_impianto_m: "6 × 6 (tradizionale); 4 × 6 (intensivo)"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Irrigazione_a_Conca_e_Solco]]"
+  - "[[Swale_Canali_Infiltrazione]]"
 tags:
   - albero
   - sempreverde
@@ -92,6 +96,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Irrigazione_a_Conca_e_Solco]] · [[Swale_Canali_Infiltrazione]]
 - [[autunno]] · [[inverno]] · [[primavera]]
 
 #pianta #albero_da_frutto #sempreverde

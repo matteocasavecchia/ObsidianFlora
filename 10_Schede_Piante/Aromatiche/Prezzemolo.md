@@ -13,6 +13,9 @@ usi:
   - cucina (universale italiana)
 raccolta_foglie: "Tutto l'anno con semine scalari"
 periodo_fioritura: "Maggio-Luglio del secondo anno (poi a seme)"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -77,6 +80,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[Semenzaio_Moltiplicazione]] · [[Consociazioni]]
 
 #pianta #aromatica #apiacee

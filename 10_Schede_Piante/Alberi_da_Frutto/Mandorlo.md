@@ -15,6 +15,10 @@ entrata_in_produzione_anni: 4
 autofertile: parziale
 impollinatori_richiesti: "Quasi sempre richiesto (eccezione: Tuono, Genco autofertili)"
 sesto_impianto_m: "5 × 6"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Irrigazione_a_Conca_e_Solco]]"
+  - "[[Swale_Canali_Infiltrazione]]"
 tags:
   - albero
   - drupacee
@@ -91,6 +95,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Irrigazione_a_Conca_e_Solco]] · [[Swale_Canali_Infiltrazione]]
 - [[inverno]] · [[primavera]] · [[estate]]
 
 #pianta #albero_da_frutto #drupacee #frutta_secca

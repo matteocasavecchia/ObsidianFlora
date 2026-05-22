@@ -20,5 +20,5 @@ In questo periodo l'attenzione si sposta sulla gestione idrica e sulle prime gra
 - Patate novelle.
 
 ---
-**Correlati:** [[Irrigazione_a_Goccia]] | [[Compostaggio]]
+**Correlati:** [[Irrigazione_Panoramica]] | [[Irrigazione_a_Goccia]] | [[Gestione_Idrica_Estiva]] | [[Compostaggio]]
 #estate #raccolto #sole

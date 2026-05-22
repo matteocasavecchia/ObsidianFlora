@@ -16,6 +16,9 @@ usi:
   - siepi mediterranee
 raccolta_foglie: "Tutto l'anno"
 periodo_fioritura: "Marzo-Maggio (e rifioriture autunnali)"
+tecniche_irrigazione:
+  - "[[Irrigazione_a_Goccia]]"
+  - "[[Microaspersione]]"
 tags:
   - pianta
   - aromatica
@@ -82,6 +85,7 @@ LIMIT 10
 
 ## Riferimenti
 - [[_MOC_Piante]]
+- Irrigazione: [[Irrigazione_Panoramica]] · [[Irrigazione_a_Goccia]] · [[Microaspersione]]
 - [[Gestione_Salsedine_Vento]] · [[Semenzaio_Moltiplicazione]]
 
 #pianta #aromatica #lamiaceae #mediterraneo
