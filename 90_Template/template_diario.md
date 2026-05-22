@@ -7,6 +7,7 @@ temperatura_min_c:
 pioggia_mm: 0
 vento: 
 piante: 
+animali: 
 interventi: 
 tags:
   - diario
@@ -24,6 +25,10 @@ _(cosa hai notato in giro: fioriture, attacchi parassiti, segnali fenologici, fa
 
 ## Piante toccate oggi
 - 
+
+## Pollaio
+- Uova raccolte: 
+- Osservazioni galline: 
 
 ## Raccolto
 - 
