@@ -17,11 +17,14 @@ Knowledge base personale per orto e frutteto biologico, tarata sul clima **medit
 
 ## Cosa contiene
 
-Il vault raccoglie schede pratiche e operative per la coltivazione, organizzate in cinque ambiti:
+Il vault raccoglie schede pratiche e operative per la coltivazione e l'allevamento domestico, organizzate in più ambiti:
 
 - **30 schede di orticole**: pomodoro, zucchina, melanzana, peperone, cetriolo, cavoli, insalate, radici, bulbi, legumi, cucurbitacee, mais (vedi `10_Schede_Piante/Orticole/`).
 - **12 schede di aromatiche**: basilico, rosmarino, salvia, timo, origano, maggiorana, prezzemolo, menta, lavanda, erba cipollina, alloro, melissa (`10_Schede_Piante/Aromatiche/`).
 - **10 schede di alberi da frutto**: olivo, agrumi (limone, arancio, mandarino), drupacee (susino, albicocco, mandorlo), fico, melograno, vite (`10_Schede_Piante/Alberi_da_Frutto/`).
+- **Pollicoltura**: schede di razza, schede di gestione del pollaio, registro uova e calendario del pollaio, per un allevamento familiare di galline ovaiole (`11_Schede_Pollicoltura/`).
+- **Allevamento da latte**: schede di razza (capre, pecore, asina), gestione, registri e calendario per un piccolo allevamento di ruminanti da latte (`12_Schede_Allevamento_Latte/`).
+- **Caseificazione**: tecniche di lavorazione del latte, schede dei formaggi e registro di produzione (`13_Caseificazione/`).
 - **10 tecniche colturali**: compostaggio, pacciamatura, irrigazione a goccia, consociazioni, rotazioni, difesa biologica, gestione salsedine e vento, semenzaio, sovesci, forme di allevamento e potatura (`30_Tecniche/`).
 - **Calendario operativo**: 4 note stagionali + 12 note mensili con semine, raccolte, potature, difesa, lavorazioni tarate sul clima costiero centro-italiano (`20_Calendario/`).
 
@@ -38,6 +41,23 @@ agricoltura/
 │   ├── Aromatiche/                (12 schede)
 │   ├── Alberi_da_Frutto/          (10 schede)
 │   └── _MOC_Piante.md             Mappa di tutte le schede (Dataview)
+├── 11_Schede_Pollicoltura/        Pollaio familiare
+│   ├── Razze/                     Schede di razza (galline)
+│   ├── Gestione/                  Schede di gestione del pollaio
+│   ├── Registro/                  Registro uova
+│   ├── Calendario_Pollaio.md      Promemoria stagionale del pollaio
+│   └── _MOC_Pollicoltura.md
+├── 12_Schede_Allevamento_Latte/   Piccoli ruminanti da latte (capre, pecore, asina)
+│   ├── Razze/                     Schede di razza da latte
+│   ├── Gestione/                  Alimentazione, mungitura, riproduzione, salute, anagrafe
+│   ├── Registro/                  Registro mungitura, parti e sanitario
+│   ├── Calendario_Allevamento.md  Promemoria stagionale (monte, parti, lattazione)
+│   └── _MOC_Allevamento_Latte.md
+├── 13_Caseificazione/             Lavorazione del latte
+│   ├── Tecniche/                  Igiene, coagulazione, salatura, stagionatura...
+│   ├── Formaggi/                  Schede ricetta per formaggio/latticino
+│   ├── Registro/                  Registro di produzione casearia
+│   └── _MOC_Caseificazione.md
 ├── 20_Calendario/
 │   ├── Stagioni/                  4 note: primavera, estate, autunno, inverno
 │   ├── Mensile/                   12 note: 01_Gennaio … 12_Dicembre
@@ -52,7 +72,13 @@ agricoltura/
 │   ├── template_pianta_aromatica.md
 │   ├── template_albero_da_frutto.md
 │   ├── template_tecnica.md
-│   └── template_diario.md
+│   ├── template_diario.md
+│   ├── template_razza_gallina.md
+│   ├── template_gestione_pollaio.md
+│   ├── template_razza_lattifera.md
+│   ├── template_gestione_allevamento.md
+│   ├── template_tecnica_casearia.md
+│   └── template_formaggio.md
 └── _Assets/                       Immagini e allegati
 ```
 
