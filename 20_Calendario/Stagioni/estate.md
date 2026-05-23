@@ -17,7 +17,15 @@ In questo periodo l'attenzione si sposta sulla gestione idrica e sulle prime gra
 ## 🧺 Raccolte
 - [[Pomodoro|Pomodori]], [[Zucchina|zucchine]], [[Peperone|peperoni]], [[Melanzana|melanzane]], [[Cetriolo|cetrioli]], [[Melone|meloni]], [[Anguria|angurie]].
 - [[Cipolla|Cipolle]] e [[Aglio]] (da essiccare).
-- Patate novelle.
+- [[Patata|Patate]] novelle.
+
+## 🍽️ Ricette di stagione
+```dataview
+TABLE portata AS "Portata", ingredienti_orto AS "Dall'orto"
+FROM "agricoltura/50_Ricette"
+WHERE tipo = "ricetta" AND contains(stagione, this.stagione)
+SORT file.name ASC
+```
 
 ---
 **Correlati:** [[Irrigazione_Panoramica]] | [[Irrigazione_a_Goccia]] | [[Gestione_Idrica_Estiva]] | [[Compostaggio]]

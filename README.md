@@ -19,14 +19,15 @@ Knowledge base personale per orto e frutteto biologico, tarata sul clima **medit
 
 Il vault raccoglie schede pratiche e operative per la coltivazione e l'allevamento domestico, organizzate in più ambiti:
 
-- **30 schede di orticole**: pomodoro, zucchina, melanzana, peperone, cetriolo, cavoli, insalate, radici, bulbi, legumi, cucurbitacee, mais (vedi `10_Schede_Piante/Orticole/`).
+- **33 schede di orticole**: pomodoro, zucchina, melanzana, peperone, peperoncino, cetriolo, cavoli, insalate, radici, bulbi, patata, sedano, legumi, cucurbitacee, mais (vedi `10_Schede_Piante/Orticole/`).
 - **12 schede di aromatiche**: basilico, rosmarino, salvia, timo, origano, maggiorana, prezzemolo, menta, lavanda, erba cipollina, alloro, melissa (`10_Schede_Piante/Aromatiche/`).
-- **10 schede di alberi da frutto**: olivo, agrumi (limone, arancio, mandarino), drupacee (susino, albicocco, mandorlo), fico, melograno, vite (`10_Schede_Piante/Alberi_da_Frutto/`).
+- **11 schede di alberi da frutto**: olivo, agrumi (limone, arancio, mandarino), drupacee (susino, albicocco, mandorlo), fico, melograno, vite, noce (`10_Schede_Piante/Alberi_da_Frutto/`).
 - **Pollicoltura**: schede di razza, schede di gestione del pollaio, registro uova e calendario del pollaio, per un allevamento familiare di galline ovaiole (`11_Schede_Pollicoltura/`).
 - **Allevamento da latte**: schede di razza (capre, pecore, asina), gestione, registri e calendario per un piccolo allevamento di ruminanti da latte (`12_Schede_Allevamento_Latte/`).
 - **Caseificazione**: tecniche di lavorazione del latte, schede dei formaggi e registro di produzione (`13_Caseificazione/`).
 - **10 tecniche colturali**: compostaggio, pacciamatura, irrigazione a goccia, consociazioni, rotazioni, difesa biologica, gestione salsedine e vento, semenzaio, sovesci, forme di allevamento e potatura (`30_Tecniche/`).
 - **Calendario operativo**: 4 note stagionali + 12 note mensili con semine, raccolte, potature, difesa, lavorazioni tarate sul clima costiero centro-italiano (`20_Calendario/`).
+- **Ricette dell'orto**: schede ricetta organizzate per stagione, ognuna collegata via wikilink alle piante che utilizza (campo `ingredienti_orto`). Il legame è bidirezionale: da ogni scheda pianta un blocco Dataview mostra le ricette che la usano (`50_Ricette/`).
 
 Ogni scheda pianta contiene: frontmatter strutturato (famiglia botanica, ciclo, periodi, distanze, pH, consociazioni, rotazioni), caratteristiche e varietà tradizionali italiane, semina e trapianto, cura annuale, avversità tipiche con difese biologiche, raccolta e conservazione, note specifiche per costa mediterranea.
 
@@ -37,9 +38,9 @@ agricoltura/
 ├── 00_Indice/                     Home del vault
 │   └── Home.md
 ├── 10_Schede_Piante/              Schede pianta per pianta
-│   ├── Orticole/                  (30 schede)
+│   ├── Orticole/                  (33 schede)
 │   ├── Aromatiche/                (12 schede)
-│   ├── Alberi_da_Frutto/          (10 schede)
+│   ├── Alberi_da_Frutto/          (11 schede)
 │   └── _MOC_Piante.md             Mappa di tutte le schede (Dataview)
 ├── 11_Schede_Pollicoltura/        Pollaio familiare
 │   ├── Razze/                     Schede di razza (galline)
@@ -67,6 +68,8 @@ agricoltura/
 │   └── _MOC_Tecniche.md
 ├── 40_Diario/                     Daily notes (Periodic Notes plugin)
 │   └── _README_Diario.md
+├── 50_Ricette/                    Ricette dell'orto, ordinate per stagione
+│   └── _MOC_Ricette.md            Mappa ricette per stagione e portata (Dataview)
 ├── 90_Template/                   Template Templater
 │   ├── template_pianta_orticola.md
 │   ├── template_pianta_aromatica.md
@@ -78,7 +81,8 @@ agricoltura/
 │   ├── template_razza_lattifera.md
 │   ├── template_gestione_allevamento.md
 │   ├── template_tecnica_casearia.md
-│   └── template_formaggio.md
+│   ├── template_formaggio.md
+│   └── template_ricetta.md
 └── _Assets/                       Immagini e allegati
 ```
 
@@ -169,6 +173,13 @@ Tag tematici minimi, condivisi tra schede della stessa famiglia o categoria:
 4. Compila i campi del frontmatter e le sezioni del corpo
 5. La nota apparirà automaticamente nelle tabelle Dataview del MOC
 
+### Aggiungere una ricetta
+
+1. Crea una nuova nota in `50_Ricette/` con il nome del piatto
+2. Inserisci il template `template_ricetta`
+3. Nel frontmatter compila `stagione` (una o più), `portata` e soprattutto `ingredienti_orto` con i wikilink alle piante usate (es. `"[[Pomodoro]]"`)
+4. La ricetta comparirà automaticamente nel `_MOC_Ricette.md`, nella pagina della stagione corrispondente e nel blocco "Ricette collegate" di ogni pianta citata
+
 ### Aggiungere una voce di diario
 
 Usa Periodic Notes per creare la daily note di oggi, oppure crea manualmente una nota `YYYY-MM-DD.md` in `40_Diario/`. Il template `template_diario` ha già il frontmatter con campi `piante`, `interventi`, `meteo` che possono essere interrogati via Dataview dalle schede pianta.
@@ -178,6 +189,7 @@ Usa Periodic Notes per creare la daily note di oggi, oppure crea manualmente una
 - **Per pianta**: apri `_MOC_Piante.md` e usa le tabelle Dataview, oppure cerca direttamente nella cartella.
 - **Per mese**: apri `_MOC_Calendario.md` e seleziona il mese corrente.
 - **Per tecnica**: apri `_MOC_Tecniche.md`.
+- **Per ricetta**: apri `_MOC_Ricette.md` per sfogliarle per stagione, oppure apri una scheda pianta e guarda il blocco "Ricette collegate".
 - **Wikilink**: cliccando su `[[Pomodoro]]` ovunque nel vault arrivi alla scheda relativa.
 
 ## Licenza

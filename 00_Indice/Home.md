@@ -14,6 +14,7 @@ Casa base del vault. Da qui raggiungi tutto.
 - [[_MOC_Caseificazione|🧀 Caseificazione]]
 - [[calendario_master|📅 Calendario Master]]
 - [[_MOC_Tecniche|🛠️ Tecniche e Pratiche]]
+- [[_MOC_Ricette|🍽️ Ricette dell'Orto]]
 - [[_README_Diario|📓 Diario di Campo]]
 
 ## Stagioni
@@ -33,6 +34,3 @@ LIMIT 10
 ```
 
 #home #vault
-
-Da aggiungere in futuro:
-- Aggiungiamo una sezione di ricette che prevedano l'uso dei prodotti dell'orto? Probabilmente ha senso anche una sorta di ordine in funzione delle stagioni, in modo da poter consultare le ricette in modo stagionale. E' comunque importante che ci siano tutti i link tra ricette e piante.

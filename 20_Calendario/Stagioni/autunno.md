@@ -19,6 +19,14 @@ Fase di transizione verso le colture resistenti al freddo e preparazione del ter
 - [[Olivo|Olive]] (dipendono dalla latitudine e varietà).
 - Castagne e piccoli frutti autunnali.
 
+## 🍽️ Ricette di stagione
+```dataview
+TABLE portata AS "Portata", ingredienti_orto AS "Dall'orto"
+FROM "agricoltura/50_Ricette"
+WHERE tipo = "ricetta" AND contains(stagione, this.stagione)
+SORT file.name ASC
+```
+
 ---
 **Vedi anche:** [[Forme_Allevamento_Potatura]] | [[Sovesci]]
 #autunno #preparazione #orto

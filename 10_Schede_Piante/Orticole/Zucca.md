@@ -97,6 +97,14 @@ SORT file.name DESC
 LIMIT 10
 ```
 
+## 🍽️ Ricette collegate
+```dataview
+TABLE stagione AS "Stagione", portata AS "Portata"
+FROM "agricoltura/50_Ricette"
+WHERE tipo = "ricetta" AND contains(ingredienti_orto, this.file.link)
+SORT file.name ASC
+```
+
 ## Note personali
 - 
 
