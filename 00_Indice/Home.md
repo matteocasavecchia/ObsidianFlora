@@ -11,6 +11,7 @@ Casa base del vault. Da qui raggiungi tutto.
 - [[_MOC_Piante|🥬 Schede Piante]]
 - [[_MOC_Pollicoltura|🐔 Pollicoltura]]
 - [[_MOC_Allevamento_Latte|🐐 Allevamento da Latte]]
+- [[_MOC_Cunicoltura|🐰 Cunicoltura]]
 - [[_MOC_Caseificazione|🧀 Caseificazione]]
 - [[calendario_master|📅 Calendario Master]]
 - [[_MOC_Tecniche|🛠️ Tecniche e Pratiche]]
