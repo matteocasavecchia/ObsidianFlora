@@ -1,4 +1,5 @@
 ---
+tipo: stagione
 stagione: Primavera
 mesi: "Marzo, Aprile, Maggio"
 attivita_principale: Semina estiva

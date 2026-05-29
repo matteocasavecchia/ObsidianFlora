@@ -1,4 +1,5 @@
 ---
+tipo: stagione
 stagione: Estate
 mesi: "Giugno, Luglio, Agosto"
 attivita_principale: Raccolta e Irrigazione

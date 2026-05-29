@@ -1,4 +1,5 @@
 ---
+tipo: stagione
 stagione: Autunno
 mesi: "Settembre, Ottobre, Novembre"
 attivita_principale: Raccolta autunnale e preparazione invernale

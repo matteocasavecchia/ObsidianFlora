@@ -1,4 +1,5 @@
 ---
+tipo: stagione
 stagione: Inverno
 mesi: "Dicembre, Gennaio, Febbraio"
 attivita_principale: Riposo, potature, pianificazione
