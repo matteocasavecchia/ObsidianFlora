@@ -1,5 +1,5 @@
 ---
-tipo: scheda_razza_lattifera
+tipo: scheda_razza_equina
 categoria: asina
 nome_razza: Asina dell'Amiata
 origine: Monte Amiata (Toscana meridionale)
