@@ -5,7 +5,7 @@ ambito: allevamento_latte
 
 # 🐐 MOC Allevamento da Latte
 
-Mappa dell'area allevamento di piccoli ruminanti da latte (capre, pecore) e asina: razze, schede di gestione e registri.
+Mappa dell'area allevamento di piccoli ruminanti da latte (capre, pecore) e degli equini (asini e cavalli da lavoro): razze, schede di gestione e registri.
 Piccolo allevamento orientato alla produzione di latte e alla caseificazione, con possibilità di vendita locale. Clima mediterraneo costiero (La Spezia).
 
 ## 🐑 Razze
@@ -14,6 +14,14 @@ TABLE categoria AS "Specie", latte_litri_lattazione AS "Litri/lattaz.", durata_l
 FROM "agricoltura/12_Schede_Allevamento_Latte/Razze"
 WHERE tipo = "scheda_razza_lattifera"
 SORT latte_litri_lattazione DESC
+```
+
+## 🐴 Equini (asini e cavalli)
+```dataview
+TABLE categoria AS "Specie", attitudine AS "Attitudine", origine AS "Origine", rusticita AS "Rusticità", adatta_clima_costiero AS "Costa"
+FROM "agricoltura/12_Schede_Allevamento_Latte/Razze"
+WHERE tipo = "scheda_razza_equina"
+SORT file.name ASC
 ```
 
 ## 🛠️ Gestione
@@ -41,6 +49,6 @@ SORT file.name ASC
 - [[_MOC_Tecniche]] — tecniche (compostaggio del letame, ecc.)
 - [[calendario_master]] — interventi stagionali dell'orto
 
-> Le tabelle si popolano automaticamente man mano che aggiungi schede con i template `template_razza_lattifera` e `template_gestione_allevamento`.
+> Le tabelle si popolano automaticamente man mano che aggiungi schede con i template `template_razza_lattifera`, `template_razza_equina` e `template_gestione_allevamento`.
 
 #moc #allevamento_latte

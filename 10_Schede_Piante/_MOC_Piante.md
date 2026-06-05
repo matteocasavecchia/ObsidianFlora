@@ -31,6 +31,14 @@ WHERE tipo = "scheda_pianta"
 SORT file.name ASC
 ```
 
+## 🌾 Cereali e grani antichi
+```dataview
+TABLE nome_scientifico AS "Specie", periodo_semina AS "Semina", periodo_raccolta AS "Raccolta", fabbisogno_idrico AS "Acqua"
+FROM "agricoltura/10_Schede_Piante/Cereali"
+WHERE tipo = "scheda_pianta"
+SORT file.name ASC
+```
+
 > Le tabelle si popolano automaticamente quando aggiungi schede con il template corretto.
 
 #moc #piante
